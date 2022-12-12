@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a href="#home">HOME</a>
+                    <a href="#menu">MENU</a>
+                    <a href="#toppings">SUGGEST A TOPPING</a>
+          </nav>
+        <div class="container">
+            <img src="https://media.istockphoto.com/id/1301482898/photo/pepperoni-pizza-on-wooden-table.jpg?s=170667a&w=0&k=20&c=a0hrdKQLLXWk-Mu_b9I0tePRV_5suPZ4x70b3ybavLk=" id="Pizza" style="width:100%;">
+            <div class="centered">Papa Tony's Pizza</div>
+            <div class="centered2">Eat Fresh!</div>
+          </div>
+          <section id="home">
+          <h1 id="welcome">Welcome!</h1>
+          <h2 id="h21">Welcome to Papa Tony's Pizza! Our pizzas are made freshly with just the right ingredients to satisfy your tatsing and they come in a huge range of flavours. How sweet is that! We're also free to modify YOUR pizza with our amazing toppings that'll just give you that flavour explosion you need. What are you waiting for? Come and visit us! We're open 24/7 because whenever you're hungry, our pizza will surely fill you up!</h2>
+          <img id="tony" src="https://media.istockphoto.com/id/178368198/photo/chef-with-italian-pizza.jpg?s=170667a&w=0&k=20&c=hdUiQk93Ewy-L6SLFIdry-SLnzClOHkbuXladgr46vo=">
+          <h1 id="tonyromanoricci">Tony Romano-Ricci</h1>
+          <h2 id="caption">Owner of Papa Tony's Pizza</h2>
+          </section>
+          <div class="container2">
+            <img src="https://plantbasednews.org/app/uploads/2022/07/plant-based-news-eating-pizza.jpg" id="Pizza2" style="width:100%;">
+            <section id="menu">
+            <div class="centered3">Menu</div>
+            <h1 id="pizzas">Pizzas</h1>
+            <div class="column">
+            <img id="chicken" src="https://static.onecms.io/wp-content/uploads/sites/19/2013/02/22/chicken-tikka-pizzas-ck-x.jpg">
+            <h1>Chicken Tikka Pizza</h1>
+            </div>
+            <div class="column">
+            <img id="classic_cheese" src="https://preppykitchen.com/wp-content/uploads/2021/10/Cheese-Pizza-Recipe-Card-500x500.jpg">
+            <h1>Classic Cheese (Veg)</h1>
+            </div>
+            <div class="column2">
+                <img id="feta" src="https://www.cookitrealgood.com/wp-content/uploads/2020/06/spinachfetapizza14-720x720.jpg">
+                <h1>Feta Pizza (Veg)</h1>
+                </div>
+                <div class="column2">
+                <img id="veggie_trio" src="https://theyummybowl.com/wp-content/uploads/VEGETARIAN-PIZZA-GF-REC-500x500.jpg">
+                <h1>Veggie Trio (Veg)</h1>
+                </div>
+            </section>
+            <div class="container3">
+                <img src="https://madeinitaly.com.au/wp-content/uploads/2021/09/Made-In-Italy-Beaconsfield.jpg" id="Pizza3" style="width:100%;">
+                <section id="toppings">
+                <div class="centered4">Suggest a topping</div>
+                <br>
+                <div>
+                    <span>1</span>
+                    <input id="item1" type="text" placeholder="Type your suggestions/s">
+                    <br>
+                    <br>
+                    <span>2</span>
+                    <input id="item2" type="text" placeholder="Type your suggestions/s">
+                    <br>
+                    <br>
+                    <span>3</span>
+                    <input id="item3" type="text" placeholder="Type your suggestions/s">
+                    <br>
+                    <br>
+                    <span>4</span>
+                    <input id="item4" type="text" placeholder="Type your suggestions/s">
+                </div>
+                <br>
+                <button onclick="submit()" id="submit_button">Submit</button>
+                <button onclick="sort()" id="sort_button">Sort</button>
+                <br>
+                <h1 id="suggestions"></h1>
+                </section>
+            </div>
+          </div>
+    </body>
+</html>

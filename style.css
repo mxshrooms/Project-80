@@ -1,0 +1,154 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -250%);
+    color:white;
+    font-size:70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color:brown;
+  }
+#Pizza {
+    height:400px;
+}
+.centered2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-78%, -170%);
+    color:white;
+    font-size:45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+  }
+body {
+    text-align:center;
+    background-color:rgb(39, 39, 39);
+}
+a {
+    margin-left:45px;
+    font-size:30px;
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:600;
+    text-align: center;
+}
+nav {
+    position:fixed;
+    background-color:rgb(39, 39, 39);
+    width:100%;
+    text-align:center;
+    height:40px;
+}
+a:hover {
+    background-color:rgb(77, 74, 74)
+}
+#welcome {
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size:60px;
+}
+#h21 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-weight:300;
+    width:80%;
+    margin-left:120px;
+}
+#tony {
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+}
+#tonyromanoricci {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-weight:500px;
+}
+#caption {
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:200;
+    font-size:20px;
+}
+.centered3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, 1110%);
+    color:white;
+    font-size:70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color:brown;
+  }
+#Pizza2 {
+    height:400px;
+}
+#chicken {
+    height:300px;
+    width:300px;
+    border-radius: 50px;
+}
+.column {
+    float:left;
+    margin-left:220px;
+    margin-top:20px;
+}
+#classic_cheese {
+    height:300px;
+    width:300px;
+    border-radius: 50px;
+}
+h1 {
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.column2 {
+    float:left;
+    margin-left:220px;
+    margin-top:20px;
+}
+#feta {
+    height:300px;
+    width:300px;
+    border-radius: 50px;
+}
+#pizzas {
+    font-size:60px;
+}
+#veggie_trio {
+    height:300px;
+    width:300px;
+    border-radius:50px;
+}
+#Pizza3 {
+    height:400px;
+}
+.centered4 {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-60%, 2799%);
+    color:white;
+    font-size:70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    background-color:brown;
+}
+input {
+    height:30px;
+    width:250px;
+}
+#sort_button {
+    display:none;
+}
+span {
+    color:white;
+}
+button {
+    background-color:white;
+}
